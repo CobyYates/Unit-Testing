@@ -1,4 +1,4 @@
-const {sum, sub} = require('./calc.js')
+const {sum, sub, mult, div, exponent, root} = require('./calc.js')
 
 test('it should sum 2 numbers', () => {
     expect(sum(3,5)).toBe(8)
@@ -13,15 +13,15 @@ test('it should multiply 2 numbers', () => {
 })
 
 test('it should divide 2 numbers', () => {
-    expect(div(1,4).toBe(4))
+    expect(div(8,2).toBe(4))
 })
 
 // Second set
 
-test('it should create an exponent with 2 numbers', () => {
-    expect(div(4,2).toBe(4))
+test('it should give a number a square root', () => {
+    expect(exponent(4).toBe(16))
 })
 
 test('it should find the root of a number', () => {
-    expect(div(64).toBe(8))
+    expect(root(64).toBe(8))
 })
