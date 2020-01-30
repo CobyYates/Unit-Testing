@@ -2,7 +2,7 @@
 function add(a, b) {
     return a + b
 }
-console.log(add(2, 4))
+console.log(add(3, 5))
 
 //Sub
 function sub(a, b) {
@@ -17,10 +17,10 @@ function mult(a, b) {
 console.log(mult(5,3))
 
 //divide
-function div(a, b) {
+function divide(a, b) {
     return a / b
 }
-console.log(div(6,3))
+console.log(divide(6,3))
 
 // root
 function exponent(a) {
@@ -28,9 +28,9 @@ function exponent(a) {
 }
 console.log(exponent(4))
 
-function root(a) {
+function rooter(a) {
     return Math.sqrt(a)
 }
-console.log(root(64))
+console.log(rooter(64))
 
-module.exports = {add, sub, mult, div, exponent}
+module.exports = {add, sub, mult, divide, exponent, rooter}
