@@ -1,12 +1,25 @@
-function fizzBuzz() {
-  for (let i = 0; i < 101; i++) {
-    if (i % 15 == 0) {
-      console.log("FizzBuzz");
-    } else if (i % 3 == 0) {
-      console.log("Fizz");
-    } else if (i % 5 == 0) console.log("Buzz");
-    else console.log(i);
-  }
-}
+// function fizzBuzz() {
+//   for(i = 1; i < 101; i++) {  
+//     if(i % 3 === 0) {
+//         if(i % 5 === 0) {
+//             console.log("fizzbuzz");
+//             return('fizzbuzz')
+//         }
+//         else {
+//             console.log("fizz");
+//             return("fizz")
+//         }
+//     }
+//     else if(i % 5 === 0) {
+//         console.log("buzz");
+//         return("buzz")
+//     }
+//     else {
+//         console.log(i)
+//     }
+//   }
+// }
 
-module.exports = {fizzBuzz}
+// fizzBuzz()
+
+// module.exports = { fizzBuzz };
